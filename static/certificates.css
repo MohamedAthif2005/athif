@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #0a0a0a;
+}
+nav
+{
+    padding: 5vmin;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vmin;
+}
+nav a
+{
+    color: white;
+    margin-right: 10vmin;
+    font-family: 'Verdana',sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.3vmin;
+    border-bottom: 5px solid deeppink;
+    text-decoration-color: deeppink;
+    color:deeppink !important;
+    padding-bottom: 2vmin;
+    transition: 0.2s;
+    font-size: 2.5vmin !important;
+}
+.container
+{
+    margin-left: 10vmin;
+    margin-top: 10vmin;
+    margin-right: 10vmin;
+    text-align: center;
+}
+.container img
+{
+    width: 100vmin;
+    height: 65vmin;
+    border-radius: 100px;
+    margin-bottom: 5vmin;
+    margin-right: 10vmin;
+}
+h1
+{
+    font-size: 5vmin;
+    margin-bottom: 5vh;
+    line-height: 10vh;  
+    color: deeppink;
+    font-family: 'Verdana',sans-serif;
+}
+@media (max-width:780px)
+{
+    .container img{
+        border-radius: 10px;
+    }
+}

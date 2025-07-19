@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #0a0a0a;
+}
+nav
+{
+    padding: 5vmin;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vmin;
+}
+.logo
+{
+    color: gray;
+    font-family: 'Verdana',sans-serif;
+    font-size: 3vmin;
+    letter-spacing: 0.3vmin;
+    color:deeppink;
+    margin-left: 10vmin;
+}
+nav .navlinks a
+{
+    color: white;
+    margin-right: 10vmin;
+    font-family: 'Verdana',sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.3vmin;
+    font-size: 2vmin;
+}
+.home
+{
+    border-bottom: 5px solid deeppink;
+    text-decoration-color: deeppink;
+    color:deeppink !important;
+    padding-bottom: 2vmin;
+    transition: 0.2s;
+    font-size: 2.5vmin !important;
+}
+nav .navlinks a:hover
+{
+    border-bottom: 5px solid deeppink;
+    text-decoration-color: deeppink;
+    color:deeppink !important;
+    padding-bottom: 2vmin;
+    transition: 0.2s;
+}
+.container
+{
+    display: flex;
+    flex: 1;
+    margin-left:20vmin;
+    margin-top: 10vmin;
+    font-family: 'Verdana',sans-serif;
+    color: white;
+    gap: 5vw;
+    margin-right: 10vmin;
+}
+img
+{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50px;
+    box-shadow: -10px 10px 15px deeppink;
+}
+
+.content-name
+{
+    font-size: 8vmin; 
+    margin-bottom: 5vh; 
+    line-height: 1.5 !important;
+}
+.content-role
+{
+    font-size: 5vmin;
+    margin-bottom: 5vh;
+    line-height: 10vh;
+}
+.content-descr
+{
+    line-height: 5vh;
+}
+.menu
+{
+    color: white;
+    margin-right: 10vmin;
+    font-family: 'Verdana',sans-serif;
+    text-decoration: none;
+    display: none;
+    color: deeppink;
+    letter-spacing: 0.3vmin;
+    font-size: 2.5vmin !important;
+    cursor: pointer;
+}
+footer
+{
+    background: rgba(255, 20, 145,0.5);
+    height: 6.8rem;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+footer p
+{
+    line-height: 2;
+    color: white;
+    font-family: 'Verdana',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1vmin;
+}
+@media (max-width:780px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-name{
+        line-height: 5vh;
+    }
+    .content-role
+    {
+        line-height: 5vh;
+    }
+    .content-descr{
+        line-height: 5vh;
+        margin-bottom: 10vh;
+    }
+    img
+    {
+        margin-bottom: 5vh;
+        width: 30vw;
+        height: 15vh;
+    }
+    .navlinks
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: inline-block;
+    }
+    footer
+    {
+        flex-direction: column;
+        gap: 2vh;
+    }
+}
