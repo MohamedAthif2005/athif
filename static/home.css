@@ -120,7 +120,7 @@ footer p
     font-family: 'Verdana',sans-serif;
     text-decoration: none;
     letter-spacing: 0.3vmin;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 
 @media (max-width:780px) {
@@ -144,8 +144,8 @@ footer p
     img
     {
         margin-bottom: 5vh;
-        width: 30vw;
-        height: 15vh;
+        width: 20vw;
+        height: 8vh;
     }
     .navlinks
     {

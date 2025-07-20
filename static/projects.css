@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #0a0a0a;
+}
+nav
+{
+    padding: 5vmin;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vmin;
+}
+nav a
+{
+    color: white;
+    margin-right: 10vmin;
+    font-family: 'Verdana',sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.3vmin;
+    border-bottom: 5px solid deeppink;
+    text-decoration-color: deeppink;
+    color:deeppink !important;
+    padding-bottom: 2vmin;
+    transition: 0.2s;
+    font-size: 2.5vmin !important;
+}
+.container
+{
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    
+}
+h1
+{
+    color: deeppink;
+    font-family: 'Verdana',sans-serif;
+    margin-top: 5vmin;
+    font-size: 4.5vmin;
+}
+pre
+{
+    font-family: 'Verdana',sans-serif !important;
+    margin-top: 2vmin;
+    line-height: 5vmin;
+    text-wrap: wrap;
+    font-size: 2.5vmin;
+    margin-left: 5vmin;
+}
